@@ -1,0 +1,13 @@
+.chart {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: -3px;
+  left: 0;
+}
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
