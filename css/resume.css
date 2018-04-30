@@ -22,13 +22,25 @@ body {
 
 @media screen and (max-width: 1440px) {
   .headerr.fullheight {
-    background-image: url("img/body-1400.png");
+    background-image: url("img/body-1440.png");
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .headerr.fullheight {
+    background-image: url("img/body-1366.png");
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .headerr.fullheight {
+    background-image: url("img/body-1200.png");
   }
 }
 
 @media screen and (max-width: 1077px) {
   .headerr.fullheight {
-    background-image: url("img/body-1200.png");
+    background-image: url("img/body-1024.png");
   }
   h1 {
     font-size: 4.3rem !important;
@@ -44,11 +56,10 @@ body {
 }
 
 
-
 /* ------------------------------------------ */
 @media screen and (max-width: 991px) {
   .headerr.fullheight {
-    background-image: url("img/body-320.png");
+    background-image: url("img/body-910.png");
   }
 
   .change-resolution {
@@ -83,13 +94,37 @@ body {
     font-size: 1.8rem !important;
   }
 
+  #brazil {
+    background-image: url(../img/transparent.png) !important;
+  }
+
+  #brazil:hover {
+    background-image: url(../img/transparent.png) !important;
+  }
+
+  #britsh {
+    background-image: url(../img/transparent.png) !important;
+  }
+
+  #britsh:hover {
+    background-image: url(../img/transparent.png) !important;
+  }
+
+  #BRon {
+    background-image: url(../img/transparent.png) !important;
+  }
+
+  #ENon {
+    background-image: url(../img/transparent.png) !important;
+  }
+
 }
 
 
 /* ------------------------------------------ */
 @media screen and (max-width: 768px) {
   .headerr.fullheight {
-    background-image: url("img/body-320.png");
+    background-image: url("img/body-768.png");
   }
 
   h1 {
@@ -132,7 +167,7 @@ body {
 /* ------------------------------------------ */
 @media screen and (max-width: 572px) {
   .headerr.fullheight {
-    background-image: url("img/body-320.png");
+    background-image: url("img/body-572.png");
   }
 
   h1 {
@@ -178,7 +213,7 @@ body {
 /* ------------------------------------------ */
 @media screen and (max-width: 442px) {
   .headerr.fullheight {
-    background-image: url("img/body-320.png");
+    background-image: url("img/body-442.png");
   }
 
   h1 {
@@ -227,7 +262,7 @@ body {
 /* ------------------------------------------ */
 @media screen and (max-width: 393px) {
   .headerr.fullheight {
-    background-image: url("img/body-320.png");
+    background-image: url("img/body-300.png");
   }
 
   h1 {
@@ -516,6 +551,10 @@ img.transp {
 	filter: alpha(opacity=95);
 	}
 
+  .text-secundary-link:hover {
+    color: #77636f;
+  }
+
 
 .box:before {
 	z-index: -1;
@@ -555,26 +594,35 @@ img.transp {
         box-shadow: 0 0 12px 1px black;
 }
 
-#brazil {
+#brazil, #brazilnav {
   background-size: 30px 18px;
   background-image: url(../img/br-off.png);
 }
 
-#brazil:hover {
+#brazil:hover, #brazilnav:hover {
   background-size: 30px 18px;
   background-image: url(../img/br-on.png);
 }
 
-#britsh {
+#britsh, #britshnav {
   background-size: 30px 18px;
   background-image: url(../img/en-off.png);
 }
 
-#britsh:hover {
+#britsh:hover, #britshnav:hover {
   background-size: 30px 18px;
   background-image: url(../img/en-on.png);
 }
 
+#BRon {
+  background-size: 30px 18px;
+  background-image: url(../img/br-on.png);
+}
+
+#ENon{
+  background-size: 30px 18px;
+  background-image: url(../img/en-on.png);
+}
 .grid {
   position: relative;
   width: fit-content;
